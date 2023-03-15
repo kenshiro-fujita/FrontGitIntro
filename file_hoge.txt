@@ -1,3 +1,1 @@
-new no git no file
-hogeeeeeeeeeee
-
+lesson for commit delete or revert
