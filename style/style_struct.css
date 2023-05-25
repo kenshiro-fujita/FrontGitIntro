@@ -1,0 +1,19 @@
+#introduction {
+    color: green;
+}/* idには#を使う */
+
+.good_for_body {
+    color: blue;
+}/* classには . を使う。「ドットクラス！」と覚える */
+.good_for_body_list {
+    color: darkblue;
+}/* classには . を使う */
+
+
+
+.bad_for_body {
+    color: red;
+}/* classには . を使う */
+.bad_for_body_list {
+    color: violet;
+}/* classには . を使う */

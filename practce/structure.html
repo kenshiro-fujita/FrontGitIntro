@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+        <meta charset="UTF-8"><!-- meta要素は文章のメタ情報を記述。charsetは文字エンコード -->
+        <!-- <meta name="hogehoge" content="piyopiyo"> 一般にnameでmeta情報の種類、contentでその中身を記述する。-->
+        <meta name="description" content="文章の構造を表示"><!-- description文章の概要。それに対するcontentは検索エンジンにヒットした際に表示されるサイトの説明文。超重要 -->
+        <meta name="author" content="藤田健士朗"><!-- authorは執筆者、contentにその内容を書く。 -->
+        <meta name="keywords" content="html,入門,プログラミング,web,css,javascript"><!-- keywordは内容を表すキーワード。contentをカンマ区切りで記述する。 -->
+        <title>Webページ構成入門</title><!-- 検索エンジンの検索結果ページに表示されるタイトル。超重要！！ -->
+        <link rel="stylesheet" href="../style/style_struct.css"><!-- relは外部ファイルのタイプ。"stylesheet"はCSSのこと。hrefでリンク先。同階層なら単にファイル名を書く。 -->
+</head>
+<body>
+    <header><!--headerとして上部に表示する要素-->
+    
+    </header>
+    <div id="introduction"> <!--IDは要素を一意に決める-->
+        <article class="main">
+        <p>mainクラスの中身<br>ここに文章を書く。</p>
+
+        </article><!--メインコンテンツ-->
+        <aside>
+
+        </aside><!--サイドバーなど-->
+    </div>
+    <div>
+        <h4 class="good_for_body">体によさそうな栄養などリスト</h4>
+        <ul class="good_for_body_list"> <!--classは複数指定できる。-->
+            <li>酵母菌</li>
+            <li>プロテイン</li>
+            <li>ショコラBB</li>
+            <li>L-システイン</li>
+        </ul>
+
+        <h4 class="bad_for_body">体に余りよろしくないものリスト</h4>
+        <ul class="bad_for_body_list">
+            <li>アルコール</li>
+            <li>タバコ</li>
+            <li>脂質</li>
+            <li>糖分</li>
+        </ul>
+
+        <h4 class="good_for_body">体によさそうな社会関係リスト</h4>
+        <ol class="good_for_body_list">
+            <li>孤独を感じない社会関係</li>
+            <li>適切な運動（週2時間以上）</li>
+            <li>積極的な社会参加</li>
+            <li>感謝</li>
+        </ul>
+    </div>
+
+
+    <footer><!--フッター-->
+
+    </footer>
+</body>
+</html>
