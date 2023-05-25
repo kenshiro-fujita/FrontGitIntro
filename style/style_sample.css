@@ -1,8 +1,10 @@
 ul{
     color: red;
+    display: inline-block;
+    margin: 0px
   }
   
-  li{
-    display: inline-block;
-    margin: 20px
+  ol{
+   color: blue;
+   margin: 0px 
   }
