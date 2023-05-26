@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>Kitchen</title>
+    <title>Fujita's Kitchen</title>
 </head>
 <body>
     <header>
@@ -19,13 +19,68 @@
     </header>
 
     <div id="main_visual">
-        <p>メインコンテンツです</p>
+        <img src="resource/main_visual.jpg" alt="健康と豊かな食生活を始める">
     </div>
 
     <div id="wrapper">
-        <p>ラッパー要素です（全体にかかる要素の場合よく「ラッパー」といわれる）。</p>
+        <div id="main">
+            <section>
+                <h2>Fujita's Kitchenについて</h2>
+                <section>
+                    <h3>食卓を豊かにしたい</h3>
+                    <div class="point">
+                        <p>
+                            健やかな人生は健やかな食生活から<br>
+                            上手に料理が作れるだけでなく、食べる人の人生も健やかにしていきたい。<br>
+                            それが、Fujita's Kitchenの思いです。
+                        </p>
+                        <figure><!--画像・イラストに説明文をつける場合はfigureを使う。-->
+                            <img src="resource/photo01.jpg" alt="Fujita's Kitchenについて1">
+                            <figcaption>健康バランスを考えた食事</figcaption>
+                        </figure>
+                    </div>
+                </section>
+                <section>
+                    <h3>豊かな食生活を応援したい</h3>
+                    <div class="point">
+                        <p>
+                            食は文化の数だけあります。<br>
+                            食生活が豊かだと、人生をも豊かになります。 <br>
+                            多彩なカテゴリの料理を提供し、料理をする人、食べる人の生活も豊かにしていきたいと思っております。
+                        </p>
+                        <figure>
+                            <img src="resource/photo02.jpg" alt="Fujita's Kitchenについて2">
+                            <figcaption>主菜も。スイーツも。</figcaption>
+                        </figure>
+                    </div>
+                </section>
+            </section>
+            <section id="news">
+                <h2>お知らせ</h2>
+                <ul>
+                    <li>
+                        <span>2018/09/01</span>
+                        <a href="course.html">講座案内を更新しました</a>
+                    </li>
+                    <li>
+                        <span>2018/08/31</span>
+                        <a href="gallery.html">写真を追加しました</a>
+                    </li>
+                    <li>
+                        <span>2018/08/24</span>
+                        <a href="course.html">講座案内を更新しました</a>
+                    </li>
+                    
+                </ul>
+            </section>
+
+        </div>
+
+        <aside id="sidebar">
+
+        </aside>
     </div>
-    <footer>
+    <footer id="footer">
         <p>フッターです</p>
     </footer>
 </body>
