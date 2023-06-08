@@ -1,0 +1,54 @@
+/* cssの基本はセレクタ・プロパティ・値 の３つ。要素を選んで、どの属性にどんな値を設定するか */
+
+/* セレクタ（要素を選択する）の基本 */
+
+/* ■idには#を使う */
+#introduction {
+    color: green;
+}
+
+/* ■classには . を使う。「ドットクラス！」と覚える */
+.good_for_body {
+    color: blue;
+}.good_for_body_list {
+    color: darkblue;
+}
+.bad_for_body {
+    color: red;
+}
+.bad_for_body_list {
+    color: violet;
+}
+
+
+/* 子孫セレクタにはそのまま記述する */
+div article p {
+    font-size: 30px;
+} /* divの中のarticleの中のp要素にのみ適用され、30pxになる。 */
+
+/* 擬似クラス（状態に応じて指定）を選択する方法 */
+a:link{
+    color: blue;
+}
+a:hover{
+    color: greenyellow;
+}
+a:visited{
+    color: gray;
+} /* a要素のリンクは青、ホバーすると赤、リンクに飛んだあとはグレーで表示される。 */
+
+
+
+/* CSSの適用優先順 */
+/* 1.下に書かれたものほど優先される。 */
+div p { color: purple;}
+div p { color: skyblue;}
+/* こういう感じで書くと、スカイブルーが適用される。 */
+
+/* 2.詳細に書かれたものほど優先される。 */
+
+
+
+/* ★単位 */
+/* 1.長さの単位：px または % */
+/*  %の場合は親要素に対する割合 */
